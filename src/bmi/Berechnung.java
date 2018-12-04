@@ -13,7 +13,6 @@ public class Berechnung
         double g = (double) groesse;
 
         g /= 100;
-        System.out.println(g);
         bmi = Math.round(gewicht / (g * g));
         return bmi;
     }
